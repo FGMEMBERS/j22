@@ -117,7 +117,7 @@
   <type>rotate</type>
   <object-name>Rudder</object-name>
   <property>/surface-positions/rudder-pos-norm</property>
-  <factor>18</factor>
+  <factor>-18</factor>
   <center>
    <x-m>5.047</x-m>
    <y-m>0.0</y-m>
@@ -138,7 +138,7 @@
   <object-name>Nosegear.struct</object-name>
   <object-name>Reflector01</object-name>
   <property>/surface-positions/rudder-pos-norm</property>
-  <factor>-25</factor>
+  <factor>25</factor>
   <center>
    <x-m>-5.441</x-m>
    <y-m>0.0</y-m>
