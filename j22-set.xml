@@ -12,6 +12,7 @@ and external 3D model.
  <sim>
 
   <description>Soko J-22 Orao / IAR-93</description>
+  <author>Matevz Jekovec</author>
 
   <virtual-cockpit archive="y">false</virtual-cockpit>
 
