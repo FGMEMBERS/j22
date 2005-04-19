@@ -64,6 +64,14 @@ and external 3D model.
    <too-fast-deg>12.0</too-fast-deg>
   </aoa-indexer>
 
+  <help>
+   <title>Soko J-22 Orao</title>
+   <key>
+    <name>j/k</name>
+    <desc>decrease/increase spoilers</desc>
+   </key>
+  </help>
+
  </sim>
 
  <autopilot>
