@@ -20,12 +20,6 @@ and external 3D model.
   <aero>j22-yasim</aero>
   <fuel-fraction>1.0</fuel-fraction>
 
-  <systems>
-   <electrical>
-    <path>Aircraft/Generic/generic-electrical.xml</path>
-   </electrical>
-  </systems> 
- 
   <hud>
    <path>Aircraft/j22/Huds/j22-hud1.xml</path>
    <visibility>true</visibility>
