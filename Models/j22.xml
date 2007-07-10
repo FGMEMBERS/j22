@@ -33,7 +33,7 @@
   <condition>
    <not>
    <equals>
-    <property>/gear/gear/position-norm</property>
+    <property>gear/gear/position-norm</property>
     <value>0.0</value>
    </equals>
    </not>
@@ -49,7 +49,7 @@
   <condition>
    <not>
    <equals>
-    <property>/gear/gear[1]/position-norm</property>
+    <property>gear/gear[1]/position-norm</property>
     <value>0.0</value>
    </equals>
    </not>
@@ -65,7 +65,7 @@
   <condition>
    <not>
    <equals>
-    <property>/gear/gear[2]/position-norm</property>
+    <property>gear/gear[2]/position-norm</property>
     <value>0.0</value>
    </equals>
    </not>
@@ -78,7 +78,7 @@
   <type>rotate</type>
   <object-name>Helmet</object-name>
   <object-name>BreathingTube</object-name>
-  <property>/gear/gear/steering-norm</property>
+  <property>gear/gear/steering-norm</property>
   <offset-deg>0</offset-deg>
   <factor>-25</factor>
   <center>
@@ -116,7 +116,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Rudder</object-name>
-  <property>/surface-positions/rudder-pos-norm</property>
+  <property>surface-positions/rudder-pos-norm</property>
   <factor>-18</factor>
   <center>
    <x-m>5.047</x-m>
@@ -137,7 +137,7 @@
   <object-name>Nosegear.cyl</object-name>
   <object-name>Nosegear.struct</object-name>
   <object-name>Reflector01</object-name>
-  <property>/surface-positions/rudder-pos-norm</property>
+  <property>surface-positions/rudder-pos-norm</property>
   <factor>25</factor>
   <center>
    <x-m>-5.441</x-m>
@@ -156,7 +156,7 @@
  <animation>
   <type>rotate</type>
   <object-name>LastWing.right</object-name>
-  <property>/surface-positions/elevator-pos-norm</property>
+  <property>surface-positions/elevator-pos-norm</property>
   <factor>25</factor>
   <center>
    <x-m>4.459</x-m>
@@ -174,7 +174,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Ailerons.right</object-name>
-  <property>/surface-positions/elevator-pos-norm</property>
+  <property>surface-positions/elevator-pos-norm</property>
   <factor>10</factor>
   <center>
    <x-m>1.182</x-m>
@@ -192,7 +192,7 @@
  <animation>
   <type>rotate</type>
   <object-name>LastWing.left</object-name>
-  <property>/surface-positions/elevator-pos-norm</property>
+  <property>surface-positions/elevator-pos-norm</property>
   <factor>25</factor>
   <min-deg>-35</min-deg>
   <max-deg>35</max-deg>
@@ -212,7 +212,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Ailerons.left</object-name>
-  <property>/surface-positions/elevator-pos-norm</property>
+  <property>surface-positions/elevator-pos-norm</property>
   <factor>-10</factor>
   <center>
    <x-m>1.182</x-m>
@@ -231,7 +231,7 @@
  <animation>
   <type>rotate</type>
   <object-name>LastWing.left</object-name>
-  <property>/surface-positions/left-aileron-pos-norm</property>
+  <property>surface-positions/left-aileron-pos-norm</property>
   <factor>18</factor>
   <center>
    <x-m>4.459</x-m>
@@ -249,7 +249,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Ailerons.left</object-name>
-  <property>/surface-positions/left-aileron-pos-norm</property>
+  <property>surface-positions/left-aileron-pos-norm</property>
   <factor>-20</factor>
   <center>
    <x-m>1.182</x-m>
@@ -267,7 +267,7 @@
  <animation>
   <type>rotate</type>
   <object-name>LastWing.right</object-name>
-  <property>/surface-positions/right-aileron-pos-norm</property>
+  <property>surface-positions/right-aileron-pos-norm</property>
   <factor>18</factor>
   <center>
    <x-m>4.459</x-m>
@@ -285,7 +285,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Ailerons.right</object-name>
-  <property>/surface-positions/right-aileron-pos-norm</property>
+  <property>surface-positions/right-aileron-pos-norm</property>
   <factor>20</factor>
   <center>
    <x-m>1.182</x-m>
@@ -307,7 +307,7 @@
   <object-name>Nosegear.cyl</object-name>
   <object-name>Nosegear.struct</object-name>
   <object-name>Reflector01</object-name>
-  <property>/gear/gear/position-norm</property>
+  <property>gear/gear/position-norm</property>
   <factor>-205</factor>
   <offset-deg>153.75</offset-deg>
   <min-deg>0</min-deg>
@@ -328,7 +328,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Nosegear.door01</object-name>
-  <property>/gear/gear/position-norm</property>
+  <property>gear/gear/position-norm</property>
   <factor>-460</factor>
   <offset-deg>115</offset-deg>
   <min-deg>0</min-deg>
@@ -349,7 +349,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Nosegear.door02</object-name>
-  <property>/gear/gear/position-norm</property>
+  <property>gear/gear/position-norm</property>
   <factor>-400</factor>
   <offset-deg>100</offset-deg>
   <min-deg>0</min-deg>
@@ -370,7 +370,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Nosegear.door02</object-name>
-  <property>/gear/gear/position-norm</property>
+  <property>gear/gear/position-norm</property>
   <factor>400</factor>
   <offset-deg>-300</offset-deg>
   <min-deg>0</min-deg>
@@ -391,7 +391,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Nosegear.door03</object-name>
-  <property>/gear/gear/position-norm</property>
+  <property>gear/gear/position-norm</property>
   <factor>-400</factor>
   <offset-deg>300</offset-deg>
   <min-deg>-95</min-deg>
@@ -412,7 +412,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Nosegear.door03</object-name>
-  <property>/gear/gear/position-norm</property>
+  <property>gear/gear/position-norm</property>
   <factor>400</factor>
   <offset-deg>-100</offset-deg>
   <min-deg>-95</min-deg>
@@ -433,7 +433,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Reflector02</object-name>
-  <property>/gear/gear/position-norm</property>
+  <property>gear/gear/position-norm</property>
   <factor>720</factor>
   <offset-deg>-540</offset-deg>
   <min-deg>-180</min-deg>
@@ -457,7 +457,7 @@
   <object-name>Nosegear</object-name>
   <object-name>Nosegear.cyl</object-name>
   <object-name>Nosegear.struct</object-name>
-  <property>/gear/gear/compression-norm</property>
+  <property>gear/gear/compression-norm</property>
   <factor>0.5</factor>
   <axis>
    <x>0</x>
@@ -472,7 +472,7 @@
   <object-name>Leftgear.struct</object-name>
   <object-name>Leftgear</object-name>
   <object-name>Leftgear.cyl</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
   <factor>122.73</factor>
   <offset-deg>-92.0475</offset-deg>
   <min-deg>-77.37</min-deg>
@@ -493,7 +493,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Leftgear.door</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
   <factor>560</factor>
   <offset-deg>-140</offset-deg>
   <min-deg>-140</min-deg>
@@ -514,7 +514,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Leftgear.door01</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
   <factor>400</factor>
   <offset-deg>-400</offset-deg>
   <min-deg>-100</min-deg>
@@ -535,7 +535,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Leftgear.door01</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
   <factor>-400</factor>
   <offset-deg>100</offset-deg>
   <min-deg>0</min-deg>
@@ -558,7 +558,7 @@
   <object-name>Leftgear</object-name>
   <object-name>Leftgear.cyl</object-name>
   <object-name>Leftgear.struct</object-name>
-  <property>/gear/gear[1]/compression-norm</property>
+  <property>gear/gear[1]/compression-norm</property>
   <factor>0.5</factor>
   <axis>
    <x>0</x>
@@ -573,7 +573,7 @@
   <object-name>Rightgear.struct</object-name>
   <object-name>Rightgear</object-name>
   <object-name>Rightgear.cyl</object-name>
-  <property>/gear/gear[2]/position-norm</property>
+  <property>gear/gear[2]/position-norm</property>
   <factor>-122.73</factor>
   <offset-deg>92.0475</offset-deg>
   <min-deg>0</min-deg>
@@ -594,7 +594,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Rightgear.door</object-name>
-  <property>/gear/gear[2]/position-norm</property>
+  <property>gear/gear[2]/position-norm</property>
   <factor>-560</factor>
   <offset-deg>140</offset-deg>
   <min-deg>0</min-deg>
@@ -615,7 +615,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Rightgear.door01</object-name>
-  <property>/gear/gear[2]/position-norm</property>
+  <property>gear/gear[2]/position-norm</property>
   <factor>-400</factor>
   <offset-deg>400</offset-deg>
   <min-deg>0</min-deg>
@@ -636,7 +636,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Rightgear.door01</object-name>
-  <property>/gear/gear[2]/position-norm</property>
+  <property>gear/gear[2]/position-norm</property>
   <factor>400</factor>
   <offset-deg>-100</offset-deg>
   <min-deg>-100</min-deg>
@@ -659,7 +659,7 @@
   <object-name>Rightgear</object-name>
   <object-name>Rightgear.cyl</object-name>
   <object-name>Rightgear.struct</object-name>
-  <property>/gear/gear[2]/compression-norm</property>
+  <property>gear/gear[2]/compression-norm</property>
   <factor>0.5</factor>
   <axis>
    <x>0</x>
@@ -673,7 +673,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Flaps.right</object-name>
-  <property>/surface-positions/right-flap-pos-norm</property>
+  <property>surface-positions/right-flap-pos-norm</property>
   <factor>35</factor>
   <offset-deg>0</offset-deg>
   <center>
@@ -692,7 +692,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Flaps.left</object-name>
-  <property>/surface-positions/left-flap-pos-norm</property>
+  <property>surface-positions/left-flap-pos-norm</property>
   <factor>-35</factor>
   <offset-deg>0</offset-deg>
   <center>
@@ -712,7 +712,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Slats.right</object-name>
-  <property>/surface-positions/right-slat-pos-norm</property>
+  <property>surface-positions/right-slat-pos-norm</property>
   <factor>-20</factor>
   <offset-deg>0</offset-deg>
   <center>
@@ -731,7 +731,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Slats.left</object-name>
-  <property>/surface-positions/left-slat-pos-norm</property>
+  <property>surface-positions/left-slat-pos-norm</property>
   <factor>20</factor>
   <offset-deg>0</offset-deg>
   <center>
@@ -752,7 +752,7 @@
   <type>rotate</type>
   <object-name>Airbrake.right</object-name>
   <object-name>RightBrake.cyl</object-name>
-  <property>/surface-positions/right-spoiler-pos-norm</property>
+  <property>surface-positions/right-spoiler-pos-norm</property>
   <factor>35</factor>
   <offset-deg>-35</offset-deg>
   <center>
@@ -772,7 +772,7 @@
   <type>rotate</type>
   <object-name>Airbrake.left</object-name>
   <object-name>LeftBrake.cyl</object-name>
-  <property>/surface-positions/left-spoiler-pos-norm</property>
+  <property>surface-positions/left-spoiler-pos-norm</property>
   <factor>35</factor>
   <offset-deg>-35</offset-deg>
   <center>
@@ -792,7 +792,7 @@
   <animation>
   <type>spin</type>
   <object-name>Nosegear</object-name>
-  <property>/velocities/uBody-fps</property>
+  <property>velocities/uBody-fps</property>
   <factor>-1.5</factor>
   <center>
    <x-m>-5.441</x-m>
@@ -810,7 +810,7 @@
  <animation>
   <type>spin</type>
   <object-name>Leftgear</object-name>
-  <property>/velocities/uBody-fps</property>
+  <property>velocities/uBody-fps</property>
   <factor>-1.5</factor>
   <center>
    <x-m>-0.196</x-m>
@@ -822,14 +822,14 @@
    <y>1.0</y>
    <z>0.0</z>
   </axis>
-  <condition><property>/gear/gear[1]/wow</property></condition>
+  <condition><property>gear/gear[1]/wow</property></condition>
  </animation>
  
  <!-- Right gear spin -->
  <animation>
   <type>spin</type>
   <object-name>Rightgear</object-name>
-  <property>/velocities/uBody-fps</property>
+  <property>velocities/uBody-fps</property>
   <factor>-1.5</factor>
   <center>
    <x-m>-0.196</x-m>
