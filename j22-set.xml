@@ -21,8 +21,7 @@ and external 3D model.
   <fuel-fraction>1.0</fuel-fraction>
 
   <hud>
-   <path>Aircraft/j22/Huds/j22-hud1.xml</path>
-   <visibility>true</visibility>
+   <visibility n="1">true</visibility>
   </hud>
   
   <sound>
